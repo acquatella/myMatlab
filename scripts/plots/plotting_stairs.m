@@ -23,7 +23,8 @@ figure;
     set(h(1),'color','b','LineStyle','-', 'Linewidth',1.5) 
     set(h(2),'color','g','LineStyle','--','Linewidth',1.5)
     set(h(3),'color','r','LineStyle','-.','Linewidth',1.5)
-    setunits('s','Nm');
+	xlabel('time (s)'); 
+	ylabel('torques (N.m)');
     title('Torques (t)');
     legend('Torque x','Torque y','Torque z','location','NorthEast');
     setfigtempl;
